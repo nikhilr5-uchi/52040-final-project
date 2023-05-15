@@ -12,7 +12,7 @@ Some of the error handling I missed.
 
 I note this in the performance_report.md, but the speedup depending on the workers was not as great since the task_dispatcher waits until it recieves results from the workers to then push to redis. This is what I understood the project was suppose to do, but I do not believe is the most efficient approach since I could have had the workers just push to redis themselves thus freeing up the task dispatcher. I note this in the report file, but I might have misunderstood.
 
-### To run the tests that were supplied I ran each component (task_dispatcher, worker, main app) seperately.
+### To run the tests that were supplied I ran each component (task_dispatcher, worker, main app) seperately. All the tests past.
 
 ## References
 
